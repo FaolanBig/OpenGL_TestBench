@@ -5,11 +5,11 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="OpenGL_TestBench/OpenGL_TestBench.vcxproj">
+  <Project Path="OpenGL_TestBench/OpenGL_TestBench.vcxproj" Id="84486b57-0c0e-480c-969a-e4a8dc1736a6">
     <Platform Solution="*|x86" Project="x86" />
     <Deploy />
   </Project>
-  <Project Path="OpenGL_TestBench_Windows/OpenGL_TestBench_Windows.vcxproj">
+  <Project Path="OpenGL_TestBench_Windows/OpenGL_TestBench_Windows.vcxproj" Id="af2aeb95-0ba1-454e-be26-74e6de9e186e">
     <Platform Solution="*|ARM" Project="x64" />
     <Platform Solution="*|ARM64" Project="x64" />
   </Project>
