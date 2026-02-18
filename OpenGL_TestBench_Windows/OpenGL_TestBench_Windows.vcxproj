@@ -71,12 +71,14 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LibraryPath>C:\Users\evely\source\repos\OpenGL_TestBench\OpenGL_TestBench_Windows\lib\glfw-3.4.bin.WIN64\include;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Users\evely\source\repos\OpenGL_TestBench\OpenGL_TestBench_Windows\lib\glfw-3.4.bin.WIN64\lib-vc2022;$(LibraryPath)</LibraryPath>
     <IncludePath>C:\Users\evely\source\repos\OpenGL_TestBench\OpenGL_TestBench_Windows\include;$(IncludePath)</IncludePath>
+    <ExternalIncludePath>C:\Users\evely\source\repos\OpenGL_TestBench\OpenGL_TestBench_Windows\lib\glfw-3.4.bin.WIN64\include;$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LibraryPath>C:\Users\evely\source\repos\OpenGL_TestBench\OpenGL_TestBench_Windows\lib\glfw-3.4.bin.WIN64\include;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Users\evely\source\repos\OpenGL_TestBench\OpenGL_TestBench_Windows\lib\glfw-3.4.bin.WIN64\lib-vc2022;$(LibraryPath)</LibraryPath>
     <IncludePath>C:\Users\evely\source\repos\OpenGL_TestBench\OpenGL_TestBench_Windows\include;$(IncludePath)</IncludePath>
+    <ExternalIncludePath>C:\Users\evely\source\repos\OpenGL_TestBench\OpenGL_TestBench_Windows\lib\glfw-3.4.bin.WIN64\include;$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -137,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
