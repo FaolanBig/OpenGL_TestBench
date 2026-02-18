@@ -76,11 +76,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LibraryPath>C:\Users\evely\OneDrive\Desktop\Big-Data\Development\libraries\glfw-3.4.bin.WIN64\lib-vc2022;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\Users\evely\OneDrive\Desktop\Big-Data\Development\libraries\glad;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\evely\source\repos\OpenGL_TestBench\OpenGL_TestBench\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LibraryPath>C:\Users\evely\OneDrive\Desktop\Big-Data\Development\libraries\glfw-3.4.bin.WIN64\lib-vc2022;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\Users\evely\OneDrive\Desktop\Big-Data\Development\libraries\glad;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\evely\source\repos\OpenGL_TestBench\OpenGL_TestBench\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

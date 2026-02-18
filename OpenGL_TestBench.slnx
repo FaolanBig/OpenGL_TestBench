@@ -9,4 +9,8 @@
     <Platform Solution="*|x86" Project="x86" />
     <Deploy />
   </Project>
+  <Project Path="OpenGL_TestBench_Windows/OpenGL_TestBench_Windows.vcxproj">
+    <Platform Solution="*|ARM" Project="x64" />
+    <Platform Solution="*|ARM64" Project="x64" />
+  </Project>
 </Solution>
