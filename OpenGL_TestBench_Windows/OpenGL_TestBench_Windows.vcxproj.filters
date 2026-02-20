@@ -21,9 +21,15 @@
     <ClCompile Include="glad.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\color_list.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
